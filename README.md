@@ -55,11 +55,14 @@ Abaixo estão listados os principais casos de teste implementados para o Starbug
 
 Para garantir a integridade dos testes e facilitar a integração contínua, foi configurado o GitHub Actions, permitindo que os testes sejam executados automaticamente a cada push ou pull request neste repositório. Essa prática possibilita o monitoramento constante da qualidade do código e alerta os desenvolvedores em caso de falhas, contribuindo para um ciclo de desenvolvimento mais eficiente.
 
+<img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/gActions.png" alt="web" width="500"/>
+<img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/gActions2.png" alt="web" width="500"/>
+
 ### 📈 Reporte de Testes com Tesults
 
-<img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/tesult.png" alt="web" width="600"/>
-
 Os resultados dos testes são enviados para o **Tesults**, uma plataforma de reporte de testes que exibe o status de cada execução de forma clara e organizada. Com essa integração, os membros da equipe podem visualizar o histórico de execuções e identificar rapidamente falhas, o que facilita a colaboração e o acompanhamento de correções.
+
+<img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/tesult.png" alt="web" width="600"/>
 
 ## 🚀 Conclusão
 
