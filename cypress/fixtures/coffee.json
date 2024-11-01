@@ -1,0 +1,36 @@
+{
+  "macchiato":{
+  "name": "Macchiato",
+  "price": "19,99",
+  "delivery": "10,00",
+  "paymentMethod": "credit"  
+  },
+  "latte":{
+    "name": "Latte",
+    "price": "19,99",
+    "delivery": "10,00",
+    "paymentMethod": "credit"  
+  },
+  "expresso_cremoso":{
+    "name": "Expresso Cremoso",   
+    "price": "9,99"    
+  },
+  "café_com_leite":{
+    "name": "Café com Leite",
+    "price": "19,99",
+    "delivery": "10,00",
+    "paymentMethod": "debit"  
+  },
+  "expresso_gelado":{
+    "name": "Expresso Gelado",
+    "price": "9,99",
+    "delivery": "10,00",
+    "paymentMethod": "credit"  
+  },
+  "capuccino":{
+    "name": "Capuccino",
+    "price": "19,99",
+    "delivery": "10,00",
+    "paymentMethod": "credit"  
+  }
+}

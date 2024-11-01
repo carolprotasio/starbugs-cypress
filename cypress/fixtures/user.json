@@ -1,0 +1,31 @@
+{
+  "order":{
+  "cep": "05401300",
+  "number": "255",
+  "complement": "Apt 606",
+  "coupon": "MEUCAFE"
+  },
+  "no_coupon":{
+  "cep": "05401300",
+  "number": "100",
+  "complement": "Apt 900"  
+  },
+  "john":{
+  "cep": "05401300",
+  "number": "100",
+  "complement": "Apt 900"  
+  },
+  "david":{
+  "cep": "05424150",
+  "number": "23", 
+  "complement": "none",  
+  "coupon": "PROMO20"
+  },
+  "george":{
+  "cep": "05401300",
+  "number": "289",  
+  "complement": "Apt 123", 
+  "coupon": "PROMO100"
+  }
+
+}
