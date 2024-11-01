@@ -4,6 +4,15 @@ Este repositório contém uma suíte de testes automatizados para o site [Starbu
 
 <img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/starbugs.png" alt="web" width="600"/>
 
+## 📚 Tabela de Conteúdos
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Cenário de Teste](#-cenário-de-teste)
+- [Integração Contínua com GitHub Actions](#-integração-Contínua-com-github-actions)
+- [Reporte de Testes com Tesults](#-reporte-de-testes-com-tesults)
+- [Conclusão](#-conclusão)
+
+
 ## 📋 Sobre o Projeto
 
 O site Starbugs Coffee é uma aplicação de demonstração onde usuários podem selecionar diferentes tipos de cafés e efetuar pedidos. Este projeto de automação visa simular e validar as principais funcionalidades do site, garantindo que a experiência do usuário ocorra sem erros e que os fluxos de compra funcionem corretamente. A suíte de testes cobre desde casos de compra simples até cenários com uso de cupons válidos e inválidos, abordando também a manipulação de mensagens de erro.
@@ -50,6 +59,7 @@ Abaixo estão listados os principais casos de teste implementados para o Starbug
   - **Resultado Esperado**: Uma mensagem "Cupom inválido!" é exibida.
 
  <img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/cypress.png" alt="web" width="600"/>
+
 
 ### 📊 Integração Contínua com GitHub Actions
 
