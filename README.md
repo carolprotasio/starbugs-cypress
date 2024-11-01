@@ -1,11 +1,13 @@
 # Projeto Starbugs Coffee - Testes Automatizados com Cypress
 
-Este repositório contém uma suíte de testes automatizados para o site Starbugs Coffee, desenvolvido com o objetivo de garantir a qualidade das funcionalidades oferecidas para compra de café e processos relacionados. A suíte cobre cenários comuns de pedidos, aplicando diferentes condições, como o uso de cupons de desconto e situações de erros.
+Este repositório contém uma suíte de testes automatizados para o site [Starbugs Coffee](https://starbugs-qa.vercel.app/), desenvolvido com o objetivo de garantir a qualidade das funcionalidades oferecidas para compra de café e processos relacionados. A suíte cobre cenários comuns de pedidos, aplicando diferentes condições, como o uso de cupons de desconto e situações de erros.
+
+<img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/starbugs.png" alt="web" width="600"/>
 
 ## 📋 Sobre o Projeto
 
 O site Starbugs Coffee é uma aplicação de demonstração onde usuários podem selecionar diferentes tipos de cafés e efetuar pedidos. Este projeto de automação visa simular e validar as principais funcionalidades do site, garantindo que a experiência do usuário ocorra sem erros e que os fluxos de compra funcionem corretamente. A suíte de testes cobre desde casos de compra simples até cenários com uso de cupons válidos e inválidos, abordando também a manipulação de mensagens de erro.
-
+<img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/order.png" alt="web" width="600"/>
 ### 🛠️ Tecnologias Utilizadas
 
 - **Cypress**: Framework de testes end-to-end para automação de interface de usuário 
@@ -13,7 +15,9 @@ O site Starbugs Coffee é uma aplicação de demonstração onde usuários podem
 - **GitHub Actions**: Ferramenta de CI/CD que automatiza o processo de execução dos testes a cada commit, proporcionando feedback imediato.
 - **Tesults**: Plataforma de reporte de resultados de teste, que integra com o Cypress para armazenar e exibir os resultados dos testes automatizados.
 
-### 🔍 Cenários de Teste
+<img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/cli_tesult.png" alt="web" width="600"/>
+
+### 🔍 Cenário de Teste
 
 Abaixo estão listados os principais casos de teste implementados para o Starbugs Coffee:
 
@@ -45,11 +49,15 @@ Abaixo estão listados os principais casos de teste implementados para o Starbug
   - **Ação**: Escolher o café Expresso Gelado, preencher o endereço e selecionar o método de pagamento. Aplicar um cupom inválido.
   - **Resultado Esperado**: Uma mensagem "Cupom inválido!" é exibida.
 
+ <img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/cypress.png" alt="web" width="600"/>
+
 ### 📊 Integração Contínua com GitHub Actions
 
 Para garantir a integridade dos testes e facilitar a integração contínua, foi configurado o GitHub Actions, permitindo que os testes sejam executados automaticamente a cada push ou pull request neste repositório. Essa prática possibilita o monitoramento constante da qualidade do código e alerta os desenvolvedores em caso de falhas, contribuindo para um ciclo de desenvolvimento mais eficiente.
 
 ### 📈 Reporte de Testes com Tesults
+
+<img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/tesult.png" alt="web" width="600"/>
 
 Os resultados dos testes são enviados para o **Tesults**, uma plataforma de reporte de testes que exibe o status de cada execução de forma clara e organizada. Com essa integração, os membros da equipe podem visualizar o histórico de execuções e identificar rapidamente falhas, o que facilita a colaboração e o acompanhamento de correções.
 
