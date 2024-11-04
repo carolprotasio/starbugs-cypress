@@ -1,6 +1,6 @@
 # Projeto Starbugs Coffee - Testes Automatizados com Cypress
 
-Este repositório contém uma suíte de testes automatizados para o site [Starbugs Coffee](https://starbugs-qa.vercel.app/){:target="_blank"}, desenvolvido com o objetivo de garantir a qualidade das funcionalidades oferecidas para compra de café e processos relacionados. A suíte cobre cenários comuns de pedidos, aplicando diferentes condições, como o uso de cupons de desconto e situações de erros.
+Este repositório contém uma suíte de testes automatizados para o site [Starbugs Coffee](https://starbugs-qa.vercel.app/), desenvolvido com o objetivo de garantir a qualidade das funcionalidades oferecidas para compra de café e processos relacionados. A suíte cobre cenários comuns de pedidos, aplicando diferentes condições, como o uso de cupons de desconto e situações de erros.
 
 <img src="https://github.com/carolprotasio/starbugs-cypress/blob/main/assets/starbugs.png" alt="web" width="600"/>
 
